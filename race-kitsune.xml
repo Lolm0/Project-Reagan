@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+<info>
+<author url="https://homebrewery.naturalcrit.com/share/7xW50nukB5Vq"> lolmatter0</author>
+<update version="0.1">
+			<file name="race-kitsune.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS/race-kitsune.xml" />
+		</update>
+</info>
+
+<!--Race Section-->
+  <element name="Kitsune" type="Race" source="Reagan World Setting" id="ID_LM0_RACE_KITSUNE">
+  <description>
+  <p>As an Kitsune, you are a humanoid creature with distinct vulpine features. You possess the head and fur of a fox, including its pointed ears and bushy tail. However, your body and limbs are humanoid in shape, and you stand upright like a human. Your fur can range in color from red, orange, and brown to gray, white, and black, and your eyes are often bright and intelligent, reflecting your sharp wit and cunning nature. With your agility, quick reflexes, and keen senses, you are well-suited for a variety of professions, from cunning rogues and quick-footed rangers to mystical druids and wily bards. </p>
+  <h4>Culture</h4>
+  <p>Kitsunes are known for their love of music and dance. They value artistic expression and creativity, often using music and dance as a way to communicate and bond with others. They tend to be sociable creatures, enjoying the company of others and forming tight-knit communities. They have a strong sense of loyalty to their family and friends, and will go to great lengths to protect those they care about. They have a reputation for being clever and resourceful, able to adapt to new situations and find solutions to problems. Many Kitsune are also skilled in the art of illusion, using their natural talents for deception and trickery in both playful and serious situations. </p>
+  <h4>Kitsune Traits</h4>
+    <span class="feature">Ability Score Increase.</span>Your dexterity increases by 2, wisdom score increases by 1, strength decreases by 1.<br />
+    <span class="feature">Age.</span>Kitsune have a relatively short lifespan, living for approximately 65 years. They reach maturity at around 14 years of age, at which point they are considered young adults and are expected to take on more responsibilities within their communities.<br />
+    <span class="feature">Alignment.</span>Kitsune are a race that tends towards the chaotic side of the alignment spectrum. This is due in part to their mischievous and playful nature, as well as their tendency to be fiercely independent and resist authority. Kitsune value freedom and spontaneity, often preferring to live life on their own terms rather than adhering to strict rules and structures. However, this does not mean that Kitsune are inherently malicious or immoral, many Kitsune possess strong moral compasses and seek to do what is right, even if it means going against the grain.<br />
+    <span class="feature">Size.</span>Albino Kitsune can have varying heights and builds, ranging from barely 3 feet to well over 5 feet. However, regardless of where you fall in that range, you can either be Small or Medium in size.<br />
+    <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
+
+    <span class="feature">Dark vision.</span>Your keen fox senses are particularly sharp in low light. You can see up to 60 feet in dim light as though it were bright light, and in total darkness, you can see in shades of gray as though it were dim light. However, you cannot perceive colors in darkness.<br />
+    <span class="feature">Vupline Fur.</span>Your thick fur coat is a defining feature of your appearance, but it also serves as an essential defense mechanism against the cold. It provides a layer of insulation, keeping you warm in even the harshest of winter weather. However, the downside to this protective layer is that it can cause you to overheat quickly in warm environments.<br />
+    <span class="feature">Vupline senses.</span>As an Kitsune, you possess an array of natural instincts and heightened senses, which enable you to be adept at observing your surroundings and moving silently through them. You possess a natural proficiency in the Perception and Stealth skills, making you an excellent scout and hunter. You can detect and locate hidden enemies, traps, and other dangers with ease, and you can move stealthily through even the most challenging terrain without being detected. These senses are essential for survival in the wild, and they make you an invaluable member of any adventuring party.<br />
+    <span class="feature">Vupline claws.</span>Your sharp claws grant you a climbing speed of 20 feet, and can also serve as natural weapons for unarmed strikes. When you hit with your claws, you deal 1d4 + your Strength modifier in slashing damage, instead of the usual bludgeoning damage for unarmed strikes.<br />
+    <span class="feature">Languages.</span>You can speak, read, and write Common, and another language.<br />
+  </description>
+<rules>
+      <stat name="dexterity" value="2" />
+      <stat name="wisdom" value="1" />
+      <stat name="strength" value="-1"/>
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_FIRE" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+      <select type="Language" name="Language (kitsune)" supports="Standard||Exotic" />
+</rules>
+  </element>
+  <element name="Vupline claws." type="Racial Trait" source="Reagan World Setting" id="ID_LM0_RACIAL_TRAIT_KITSUNE_VUPLINE_CLAWS">
+		<description>
+			<p>Your sharp claws grant you a climbing speed of 20 feet, and can also serve as natural weapons for unarmed strikes. When you hit with your claws, you deal 1d4 + your Strength modifier in slashing damage, instead of the usual bludgeoning damage for unarmed strikes.</p>
+		</description>
+		<sheet>
+			<description>Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4+{{strength:modifier}}, instead of the bludgeoning damage normal for an unarmed strike.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:climb" value="20" bonus="base" />
+		</rules>
+	</element>
+</elements>

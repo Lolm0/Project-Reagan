@@ -4,7 +4,7 @@
 		<name>EXPERIMENTAL Reagan World Setting</name>
 		<description>A Source for all the conetent from the Setting of Reagan.</description>
 		<author url="https://homebrewery.naturalcrit.com/share/7xW50nukB5Vq"> lolmatter0 </author>
-		<update version"0.2">
+		<update version="0.2">
 			<file name="Reagan World Setting.index" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/Reagan%20World%20Setting.index"/>
 		</update>
 	</info>

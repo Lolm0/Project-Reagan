@@ -14,7 +14,7 @@
             <set name="url">https://homebrewery.naturalcrit.com/share/7xW50nukB5Vq</set>
             <set name="author" abbreviation="RSW" url="https://www.twitch.tv/lolmatter0">lolmatter0</set>
             <set name="official">false</set>
-			<set name="core">false</set>
+		<set name="core">false</set>
         </setters>
     </element>
 </elements>

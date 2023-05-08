@@ -80,10 +80,10 @@
 
   <element name="Vupline Fur" type="Racial Trait" source="Reagan World Setting" id="ID_LM0_RWS_RACIAL_TRAIT_KITSUNE_VULPINE_FUR">
     <description>
-      <p>Your thick fur coat is a defining feature of your appearance, but it also serves as an essential defense mechanism against the cold. It provides a layer of insulation, keeping you warm in even the harshest of winter weather. However, the downside to this protective layer is that it can cause you to overheat quickly in warm environments.</p>
+      <p>As a kitsune, your luscious fur coat is not only a defining feature of your appearance but also an essential defense mechanism against the cold. The dense fur provides insulation, keeping you warm even in the harshest winter weather. However, this protective layer can also cause you to overheat quickly in warm environments. You gain resistance to cold damage, but become vulnerable to fire damage. Additionally, you have the option to further develop your natural abilities. Choose to improve your natural agility or charm by increasing either your Dexterity or Charisma score by 1.</p>
     </description>
     <sheet>
-      <description>Your thick fur coat is a defining feature of your appearance, but it also serves as an essential defense mechanism against the cold. It provides a layer of insulation, keeping you warm in even the harshest of winter weather. However, the downside to this protective layer is that it can cause you to overheat quickly in warm environments.</description>
+      <description>As a kitsune, your luscious fur coat is not only a defining feature of your appearance but also an essential defense mechanism against the cold. The dense fur provides insulation, keeping you warm even in the harshest winter weather. However, this protective layer can also cause you to overheat quickly in warm environments. You gain resistance to cold damage, but become vulnerable to fire damage. Additionally, you have the option to further develop your natural abilities. Choose to improve your natural agility or charm by increasing either your Dexterity or Charisma score by 1.</description>
     </sheet>
     <rules>
     <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION"/>

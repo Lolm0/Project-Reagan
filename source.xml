@@ -7,7 +7,7 @@
     </info>
     <element name="Reagan World Setting" type="Source" source="lolmatter's Homebrew" id="ID_LM0_RSW_Reagan_World_Setting">
         <description>
-            			<![CDATA[<p>All of lolmatter's Homebrew!</p>]]>
+            			<![CDATA[<p>The source for all the conetent from the Setting of Reagan for Aurora5e.</p>]]>
         </description>
         <setters>
             <set name="abbreviation">RSW</set>

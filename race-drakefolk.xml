@@ -1,51 +1,60 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
-<info>
-<author url="https://homebrewery.naturalcrit.com/share/7xW50nukB5Vq"> lolmatter0</author>
-<update version="0.1">
-			<file name="race-drakefolk.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS/race-drakefolk.xml" />
-		</update>
-</info>
+  <info>
+    <name>Drake Folk</name>
+    <description></description>
+    <author url="https://homebrewery.naturalcrit.com/share/7xW50nukB5Vq"> lolmatter0</author>
+      <update version="0.2">
+			  <file name="race-drakefolk.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS/race-drakefolk.xml"/>
+		  </update>
+  </info>
 
-<!--Race Section-->
-  <element name="Drake-folk" type="Race" source="Reagan World Setting" id="ID_LM0_RACE_DRAKEFOLK">
+  <element name="DrakeFolk" type="Race" source="Reagan World Setting" id="ID_LM0_RWS_RACE_DRAKEFOLK">
+
     <description>
-      <p>Drake folk are rare creatures, most are seen as great warriors or descendants of great warriors, they are seen as prideful, strong, and noble.</p>
-      <h4>Origins</h4>
-      <p>These mystical beings are formed through the mystical energy emanating from the body of a deceased dragon. As natural sorcerers, dragons possess an inherent magical essence that permeates their surroundings. However, it is important to note that not all members of the Drake-folk race are the result of exposure to this energy, as some are born into the race.</p>
-      <p>When two Drake-folk parents have a child, the child is referred to as a true Drake-folk, and there is no distinction between a true Drake-folk and a child born to a Drake-folk and another race. </p>
-
-      <h4> Drake-folk Traits </h4>
-      <p>Your draconic heritage manifests in a variety of traits shared with other Drake-folk.</p>
+      <p class="flavor"> The Drake-folk are an elusive species, often regarded as either exceptional warriors or descendants of renowned fighters. They are widely recognized for their sense of pride, strength, and nobility. </p>
+      <h4>ORIGINS</h4>
+      <p> These mystical beings are formed through the mystical energy emanating from the body of a deceased dragon. As natural sorcerers, dragons possess an inherent magical essence that permeates their surroundings. However, it is important to note that not all members of the Drake-folk race are the result of exposure to this energy, as some are born into the race. </p>
+      <p class="indent"> When two Drake-folk parents have a child, the child is referred to as a true Drake-folk, and there is no distinction between a true Drake-folk and a child born to a Drake-folk and another race. </p>
+      <h4> DRAKEFOLK TRAITS</h4>
+      <p> Your draconic mutations or heritage manifests in a variety of traits shared with other Drake-folk. </p>
       <p>
-      <span class="feature">Ability Score Increase.</span>Your strength increases by 2, and your dexterity score increases by 1.<br />
-      <span class="feature">Age.</span>Drake-folk, when young, experience a slow rate of growth. They only reach the size and development of a 10-year-old human by the time they reach 30 years of age, and they only reach adulthood by the time they are 60 years old. The longest recorded lifespan of a natural Drake-folk was 650 years. However, if a Drake-folk was created by radiation, their age is determined by their previous race, with an additional 75 years added to their lifespan.<br />
-      <span class="feature">Alignment.</span>Drake-folk tend toward no particular alignment. The best and worst are found among them.<br />
-      <span class="feature">Size.</span>Your size is determined by your previous race. If you were born as a Drake-folk, you will typically be taller and heavier than a human, standing at over 6 feet tall and weighing almost 250 pounds on average. However, regardless of your race, your size is considered Medium.<br />
-      <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
-      <span class="feature">Languages.</span>You can speak, read, and write Common, and another language.<br />
-      </p>
+      <span class="feature">Ability Score Increase.</span>Your strength increases by 2, and your dexterity score increases by 1.
+      <br />
+      <span class="feature">Age.</span>Drake-folk, when young, experience a slow rate of growth. They only reach the size and development of a 10-year-old human by the time they reach 30 years of age, and they only reach adulthood by the time they are 60 years old. The longest recorded lifespan of a natural Drake-folk was 650 years. However, if a Drake-folk was created by radiation, their age is determined by their previous race, with an additional 75 years added to their lifespan.
+      <br />
+      <span class="feature">Alignment.</span>Drake folk tend toward no particular alignment. The best and worst are found among them.
+      <br />
+      <span class="feature">Size.</span>Your size is determined by your previous race. If you were born as a Drake-folk, you will typically be taller and heavier than a human, standing at over 6 feet tall and weighing almost 250 pounds on average. However, regardless of your race, your size is considered Medium.
+      <br />
+      <span class="feature">Speed.</span>Your base walking speed is 30 feet.
+      <br />
+      <span class="feature">Languages</span>You can speak, read, and write Common, Draconic, and another language.
+      <br/>
+			</p>
     </description>
 
-    <sheet display="false" />
-    
+    <sheet display="false"/>
+
     <setters>
-			<set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
+      <set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
 			<set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
-			<set name="names" type="childhood">Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous</set>
-			<set name="names" type="clan">Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</set>
-			<set name="names-format">{{name}} {{clan}}</set>
-			<set name="height" modifier="2d8">5'6"</set>
-			<set name="weight" modifier="2d6">175 lb.</set>
-		</setters>
+      <set name="names" type="surname">Brightwood, Helder, Hornraven, Lackman, Stormwind, Windrivver</set>
+      <set name="names-format">{{name}} {{surname}}</set>
+      <set name="height" modifier="2d8">5"6</set>
+      <set name="weight" modifier="2d6">250 lb.</set>
+    </setters>
 
     <rules>
-      <stat name="strength" value="2" />
-      <stat name="dexterity" value="1" />
-      <stat name="innate speed" value="30" bonus="base" />
-      <grant type="Size" id="ID_SIZE_MEDIUM" />
-			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<select type="Language" name="Language (Drake-folk)" supports="Standard||Exotic" />
+      <stat name="strength" value="2"/>
+			<stat name="charisma" value="1"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<grant type="Language" id="ID_LANGUAGE_COMMON"/>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC"/>
+      <select type="Language" name="Language (DrakeFolk)" supports="Standard||Exotic" />
     </rules>
-    </element>
+
+  </element>
+  
 </elements>

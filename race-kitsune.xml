@@ -65,6 +65,7 @@
       </rules>
 
 </element>
+
 <element name="Vupline claws" type="Racial Trait" source="Reagan World Setting" id="ID_LM0_RWS_RACIAL_TRAIT_KITSUNE_VULPINE_CLAWS">
 		<description>
 			<p>Your sharp claws grant you a climbing speed of 20 feet, and can also serve as natural weapons for unarmed strikes. When you hit with your claws, you deal 1d4 + your Strength modifier in slashing damage, instead of the usual bludgeoning damage for unarmed strikes.</p>
@@ -76,6 +77,7 @@
 			<stat name="innate speed:climb" value="20" bonus="base" />
 		</rules>
 	</element>
+
   <element name="Vupline Fur" type="Racial Trait" source="Reagan World Setting" id="ID_LM0_RWS_RACIAL_TRAIT_KITSUNE_VULPINE_FUR">
     <description>
       <p>Your thick fur coat is a defining feature of your appearance, but it also serves as an essential defense mechanism against the cold. It provides a layer of insulation, keeping you warm in even the harshest of winter weather. However, the downside to this protective layer is that it can cause you to overheat quickly in warm environments.</p>
@@ -84,10 +86,11 @@
       <description>Your thick fur coat is a defining feature of your appearance, but it also serves as an essential defense mechanism against the cold. It provides a layer of insulation, keeping you warm in even the harshest of winter weather. However, the downside to this protective layer is that it can cause you to overheat quickly in warm environments.</description>
     </sheet>
     <rules>
-    <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION">
+    <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION"/>
     <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH"/>
     <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD"/>
     <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_FIRE"/>
     </rules>
   </element>
+
 </elements>

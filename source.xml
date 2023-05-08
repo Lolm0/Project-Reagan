@@ -2,7 +2,7 @@
 <elements>
 	<info>
         <update version="0.2">
-            <file name="source.xml" url=""/>
+            <file name="source.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/source.xml"/>
         </update>
     </info>
     <element name="Reagan World Setting" type="Source" source="lolmatter's Homebrew" id="ID_LM0_RSW_Reagan_World_Setting">

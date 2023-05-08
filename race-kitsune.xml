@@ -90,6 +90,7 @@
     <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH"/>
     <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD"/>
     <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_VULNERABILITY_FIRE"/>
+    <select type="Ability Score Improvement" name="Ability Score Improvement (Kitsune)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CHARISMA" optional="false"/>
     </rules>
   </element>
 

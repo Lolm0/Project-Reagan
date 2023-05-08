@@ -5,7 +5,7 @@
     <description></description>
     <author url="https://homebrewery.naturalcrit.com/share/7xW50nukB5Vq"> lolmatter0</author>
       <update version="0.2">
-			  <file name="race-drakefolk.xml" url=""/>
+			  <file name="race-drakefolk.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/race-drakefolk.xml"/>
 		  </update>
   </info>
 
@@ -34,9 +34,13 @@
 			</p>
     </description>
 
-    <sheet display="false" />
+    <sheet display="false"/>
 
     <setters>
+      <set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
+			<set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
+      <set name="names" type="surname">Brightwood, Helder, Hornraven, Lackman, Stormwind, Windrivver</set>
+      <set name="names-format">{{name}} {{surname}}</set>
       <set name="height" modifier="2d8">5"6</set>
       <set name="weight" modifier="2d6">250 lb.</set>
     </setters>

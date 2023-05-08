@@ -41,7 +41,7 @@
       </p>
       </description>
 
-      <sheet display="false">
+      <sheet display="false"/>
 
       <setters>
       <set name="names" type="male">Akio, Daiki, Eiji, Haruki, Jiro, Kazuki, Masaru, Nori, Ren, Taro, Yori, Zenji, Hiroshi, Kenji, Ryota</set>

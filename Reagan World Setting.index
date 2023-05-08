@@ -12,5 +12,6 @@
 		<files name="source.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/source.xml"/>
 		<!-- Races -->
 		<file name="race-drakefolk.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/race-drakefolk.xml"/>
+		<file name="race-kitsune.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/race-kitsune.xml"/>
 	</files>
 </index>

@@ -2,15 +2,16 @@
 <index>
 	<info>
 		<name>Reagan World Setting</name>
-		<description> A source of all costom content form Reagan.</description>
-		<author url="https://homebrewery.naturalcrit.com/share/7xW50nukB5Vq"> lolmatter0</author>
-		<update version="0.1">
-			<file name="Reagan World Setting.index" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS/Reagan%20World%20Setting.index" />
+		<description>A Source for all the conetent from the Setting of Reagan.</description>
+		<author url="https://www.twitch.tv/lolmatter0"> lolmatter0 </author>
+		<update version="0.2">
+			<file name="Reagan World Setting.index" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS/Reagan%20World%20Setting.index"/>
 		</update>
 	</info>
-	<files>	
-		<!-- races -->
-		<file name="race-drakefolk.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS/race-drakefolk.xml" />
-		<file name="race-kitsune.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS/race-kitsune.xml" />
+	<files>
+		<files name="source.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS/source.xml"/>
+		<!-- Races -->
+		<file name="race-drakefolk.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS/race-drakefolk.xml"/>
+		<file name="race-kitsune.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS/race-kitsune.xml"/>
 	</files>
 </index>

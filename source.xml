@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <update version="0.2">
+            <file name="source.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW/source.xml"/>
+        </update>
+    </info>
+    <element name="Reagan World Setting" type="Source" source="lolmatter's Homebrew" id="ID_LM0_RSW_Reagan_World_Setting">
+        <description>
+            <![CDATA[<p>The source for all the conetent from the Setting of Reagan for Aurora5e.</p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">RSW</set>
+            <set name="url">https://homebrewery.naturalcrit.com/share/7xW50nukB5Vq</set>
+            <set name="author" abbreviation="RSW" url="https://www.twitch.tv/lolmatter0">lolmatter0</set>
+            <set name="official">false</set>
+            <set name="core">false</set>
+        </setters>
+    </element>
+</elements>

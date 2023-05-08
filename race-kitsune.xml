@@ -54,7 +54,7 @@
       <rules>
         <stat name="dexterity" value="2"/>
         <stat name="wisdom" value="1"/>
-        <strat name="strength" value="-1"/>
+        <stat name="strength" value="-1"/>
         <stat name="innate speed" value="30" bonus="base"/>
         <grant type="Vision" id="ID_VISION_DARKVISION"/>
         <grant type="Size" id="ID_SIZE_MEDIUM"/>

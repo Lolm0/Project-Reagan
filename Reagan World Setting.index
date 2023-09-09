@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<files name="source.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/source.xml"/>
+		<files name="Source.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/Source.xml"/>
 		<!-- Races -->
 		<file name="race-drakefolk.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/race-drakefolk.xml"/>
 		<file name="race-kitsune.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/race-kitsune.xml"/>

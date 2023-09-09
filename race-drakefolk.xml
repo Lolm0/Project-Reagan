@@ -1,22 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
+<<?xml version="1.0" encoding="utf-8"?>
 <elements>
   <info>
     <name>Drake Folk</name>
     <description></description>
     <author url="https://homebrewery.naturalcrit.com/share/7xW50nukB5Vq"> lolmatter0</author>
-      <update version="0.2">
-			  <file name="race-drakefolk.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RSW-EXPERIMENTAL/race-drakefolk.xml"/>
+      <update version="0.3">
+			  <file name="race-drakefolk.xml" url="https://raw.githubusercontent.com/Lolm0/Project-Reagan/RWS-EXPERIMENTAL/race-drakefolk.xml"/>
 		  </update>
   </info>
 
-  <element name="DrakeFolk" type="Race" source="Reagan World Setting" id="ID_LM0_RWS_RACE_DRAKEFOLK">
-
-    <description>
+<element name="Drake Folk" type="Race" source="Reagan World Setting" id="ID_LM0_RWS_RACE_DRAKEFOLK">
+  <description>
       <p class="flavor"> The Drake-folk are an elusive species, often regarded as either exceptional warriors or descendants of renowned fighters. They are widely recognized for their sense of pride, strength, and nobility. </p>
       <h4>ORIGINS</h4>
       <p> These mystical beings are formed through the mystical energy emanating from the body of a deceased dragon. As natural sorcerers, dragons possess an inherent magical essence that permeates their surroundings. However, it is important to note that not all members of the Drake-folk race are the result of exposure to this energy, as some are born into the race. </p>
       <p class="indent"> When two Drake-folk parents have a child, the child is referred to as a true Drake-folk, and there is no distinction between a true Drake-folk and a child born to a Drake-folk and another race. </p>
-      <h4> DRAKEFOLK TRAITS</h4>
+      <h4>DRAKE FOLK TRAITS</h4>
+			<p>Drake folk have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutchmates as a descriptive term or a term of endearment. The name might recall an event or center on a habit.</p>
+			<p>
+			<b>Male Names: </b>Drakar, Vorin, Kaelum, Thoren, Zephyrion, Rygar, Baelok, Darian, Azrak, Pyrrhus, Valthor, Gavrek, Tyndar, Korvash, Xandor, Bracius, Ignar
+			<br/>
+			<b>Female Names: </b>Seraphina, Lyssandra, Valeria, Astrid, Nymeria, Elowen, Sylvara, Isolde, Thalassa, Elysia, Lirael, Vaelora, Zephyra, Amara, Nyxaria, Evelindra, Solara
+			<br/>
+			<b>Clan Names: </b>Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit
+      <br/>
+			</p>
+      <h4>DRAKE FOLK TRAITS</h4>
       <p> Your draconic mutations or heritage manifests in a variety of traits shared with other Drake-folk. </p>
       <p>
       <span class="feature">Ability Score Increase.</span>Your strength increases by 2, and your dexterity score increases by 1.
@@ -34,18 +43,18 @@
 			</p>
     </description>
 
-    <sheet display="false"/>
+  <sheet display="false"/>
 
-    <setters>
-      <set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
-			<set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
-      <set name="names" type="surname">Brightwood, Helder, Hornraven, Lackman, Stormwind, Windrivver</set>
-      <set name="names-format">{{name}} {{surname}}</set>
-      <set name="height" modifier="2d8">5"6</set>
+  <setters>
+      <set name="names" type="male">Drakar, Vorin, Kaelum, Thoren, Zephyrion, Rygar, Baelok, Darian, Azrak, Pyrrhus, Valthor, Gavrek, Tyndar, Korvash, Xandor, Bracius, Ignar</set>
+			<set name="names" type="female">Seraphina, Lyssandra, Valeria, Astrid, Nymeria, Elowen, Sylvara, Isolde, Thalassa, Elysia, Lirael, Vaelora, Zephyra, Amara, Nyxaria, Evelindra, Solara</set>
+      <set name="names" type="clan">Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</set>
+      <set name="names-format">{{name}} {{clam}}</set>
+      <set name="height" modifier="2d8">5'8"</set>
       <set name="weight" modifier="2d6">250 lb.</set>
     </setters>
 
-    <rules>
+  <rules>
       <stat name="strength" value="2"/>
 			<stat name="charisma" value="1"/>
 			<stat name="innate speed" value="30" bonus="base"/>
@@ -54,7 +63,5 @@
 			<grant type="Language" id="ID_LANGUAGE_DRACONIC"/>
       <select type="Language" name="Language (DrakeFolk)" supports="Standard||Exotic" />
     </rules>
-
-  </element>
-  
+  </element> 
 </elements>
